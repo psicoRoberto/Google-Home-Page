@@ -4,25 +4,47 @@
         <title>
         Google
         </title>
+        <style>
+            #search-buttons {
+                display:flex;
+                justify-content: center;
+
+            }
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right:auto;
+            }
+            p {
+                text-align: center;
+            }
+            footer {
+                text-align: center;
+            }
+        </style>
     </head>
     <body>
         <h1>
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
-        alt= "Google logo.">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
+            alt= "Google logo." class="center">
         </h1>
         <h2>
             <form>
-                <input type="text">
+                <input type="text"required class="center">
+                <div id="search-buttons">
+                <button type="submit">Google Search</button>
+                <button type="submit">I'm Feeling Lucky</button>
+                </div>
             </form>
         </h2>
         <p>
-        Google offered in: English (US)
+            Google offered in: English (US)
         </p>
         <footer>
-        United States
-        <div>
-        About Advertising Business How Search Works
-        </div>
+            United States
+            <div>
+                About Advertising Business How Search Works
+            </div>
         </footer>
     </body>
 </html>
