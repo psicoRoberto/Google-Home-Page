@@ -5,6 +5,15 @@
         Google
         </title>
         <style>
+            #top-bar {
+                text-align: right;
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                background-color: gray;
+                color: black;
+            }
             #search-buttons {
                 display:flex;
                 justify-content:space-around;
@@ -19,18 +28,26 @@
             }
             body {
                 display:block;
-                margin-top: 12%;
+                margin-top: 14%;
             }
             p {
                 text-align: center;
             }
             footer {
-                text-align: center;
+                position:fixed;
+                left: 0;
+                bottom: 0;
+                width: 100%;
+                background-color: gray;
+                color: black;
             }
         </style>
     </head>
     <body>
         <h1>
+            <div id="top-bar">
+                Gmail Images Google Apps Account &#160;
+            </div>
             <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" 
             alt= "Google logo." class="center">
         </h1>
@@ -47,9 +64,9 @@
             Google offered in: English (US)
         </p>
         <footer>
-            United States
+            &#160;&#160;United States
             <div>
-                About Advertising Business How Search Works
+                &#160;&#160;About Advertising Business How Search Works
             </div>
         </footer>
     </body>
